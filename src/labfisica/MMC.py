@@ -4,8 +4,8 @@ from pydantic import BaseModel, Field, model_validator
 import math
 
 class MMC(BaseModel):
-    x: List[float] = Field(min_length=2)
-    y: List[float] = Field(min_length=2)
+    x: List[float] 
+    y: List[float]
 
     n: int = 0
     sum_x: float = 0.0
